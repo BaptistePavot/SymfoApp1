@@ -14,7 +14,7 @@ class monController
     public function ref($ref)
     {
         return new Response(
-            '<html><body>Numéro du livre : '.$ref.'</body></html>'
+            '<html><body>Numero du livre : '.$ref.'</body></html>'
         );
     }
 }
